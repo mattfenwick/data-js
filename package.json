@@ -4,7 +4,8 @@
   "description": "common data structures",
   "main": "index.js",
   "scripts": {
-    "test": "grunt --force"
+    "jshint": "grunt --force",
+    "test": "mocha --reporter spec test/"
   },
   "repository": {
     "type": "git",
